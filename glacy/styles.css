@@ -1,0 +1,286 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.body {
+	background-color: #8aa495;
+}
+
+body {
+	max-width: 1200px;
+
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;	
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 	700;
+	color: white;
+
+
+	-webkit-box-shadow: -1px 1px 9px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 9px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 9px 0px rgba(0,0,0,0.75);
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Header */
+
+.background {
+	min-height: 881px;
+	background-image: url("img/back1.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+/*Header-left */
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation {
+	flex-basis: 587px;
+	max-height: 68px;
+
+	padding-top: 10px;
+}
+
+.navigation-list {
+	list-style: none;
+
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navigation-list a {
+	font-size: 16px;
+	line-height: 18px;
+
+	color: white;
+
+	border-bottom: 1px solid #9eb2a7;
+}
+
+.navigation-list .logo {
+	border-bottom: none;
+}
+
+/* header-right */
+.header-buttons {
+	width: 294px;
+
+	padding-right: 27px;
+}
+
+.header-buttons p {
+	margin: 0;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;	
+}
+
+.header-buttons p {
+	font-size: 14px;
+	line-height: 16px;
+
+	margin-top: 19px;
+}
+
+.header-buttons p:last-child {
+	font-size: 22px;
+	line-height: 24px;
+
+	margin-top: 9px;
+}
+
+.header-buttons-list {
+	list-style: none;
+
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header-buttons-list li {
+	margin-right: 10px;
+}
+
+.header-buttons-list li:last-child {
+	margin-right: 0;
+}
+
+/*Крем брюле и пломбир */
+
+.h1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	
+	min-height: 407px;
+
+}
+
+.h1 h1 {
+	font-size: 60px;
+	line-height: 60.35px;
+
+	margin: 0;
+}
+
+/*Давайте оба и кнопки */
+.round-buttons {
+	min-height: 132px;
+	max-width: 742px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.round-buttons div {
+	padding-left: 27px;
+}
+
+.round-buttons button {
+	width: 282px;
+	height: 64px;
+
+	font-size: 32px;
+	line-height: 44px;
+	font-family: inherit;
+	font-weight: 700;
+	color: white;
+
+
+	border: 0;
+	background-color: #ee5e3f;
+	border-radius: 50px;
+  	box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+
+  -moz-transform: matrix( 1.04013375779322,0,0,1.04013375779322,0,0);
+  -webkit-transform: matrix( 1.04013375779322,0,0,1.04013375779322,0,0);
+  -ms-transform: matrix( 1.04013375779322,0,0,1.04013375779322,0,0);
+}
+
+/*Малинка даром!, Шоколадки */
+
+.news {
+	min-height: 237px;
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	padding-right: 27px;
+	padding-left: 27px;
+}
+
+.news div {
+	min-height: 230px;
+
+	flex-basis: 560px;
+
+	border-radius: 30px;
+
+	padding-right: 27px;
+	padding-left: 20px;
+	padding-top: 23px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.malina {
+	background-image: url("img/malina.jpg");
+	background-repeat: no-repeat;
+
+}
+
+.news div:last-child {
+	background-image: url("img/shokolad.jpg");
+	background-repeat: no-repeat;
+}
+
+.news h2 {
+	margin: 0;
+	font-size: 35px;
+	line-height: 41px;
+
+	margin-bottom: 10px;
+}
+
+.news p {
+	margin: 0;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.news button {
+	height: 47px;
+	width: 160px;
+
+	font-size: 18px;
+	line-height: 24px;
+	font-family: inherit;
+	font-weight: 700;
+	color: white;
+
+	align-self: flex-end;
+
+
+	border: 0;
+	background-color: #ee5e3f;
+	border-radius: 50px;
+  	box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+
+  	margin-top: 45px;
+
+}
+
+.news .news-button2 {
+	width: 190px;
+}
+
+/* Мороженки */
+
+.ice-creams {
+	padding-right: 27px;
+	padding-left: 27px;
+
+	display: flex;
+	justify-content: space-between;
+
+	padding-top: 30px;
+}
+
+.ice-cream-text {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 500;
+
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+
+	padding-right: 27px;
+	padding-left: 27px;
+}
+
+.ice-cream-text p {
+	width: 267px;
+	text-decoration: underline;
+	text-decoration-color: #9eb2a7;
+}
