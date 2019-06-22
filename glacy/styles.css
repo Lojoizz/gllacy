@@ -177,7 +177,7 @@ a {
 
 /*Малинка даром!, Шоколадки */
 
-.news {
+.actions {
 	min-height: 237px;
 
 	display: flex;
@@ -188,7 +188,7 @@ a {
 	padding-left: 27px;
 }
 
-.news div {
+.actions div {
 	min-height: 230px;
 
 	flex-basis: 560px;
@@ -209,12 +209,12 @@ a {
 
 }
 
-.news div:last-child {
+.actions div:last-child {
 	background-image: url("img/shokolad.jpg");
 	background-repeat: no-repeat;
 }
 
-.news h2 {
+.actions h2 {
 	margin: 0;
 	font-size: 35px;
 	line-height: 41px;
@@ -222,13 +222,13 @@ a {
 	margin-bottom: 10px;
 }
 
-.news p {
+.actions p {
 	margin: 0;
 	font-size: 18px;
 	line-height: 22px;
 }
 
-.news button {
+.actions button {
 	height: 47px;
 	width: 160px;
 
@@ -250,7 +250,7 @@ a {
 
 }
 
-.news .news-button2 {
+.actions .actions-button2 {
 	width: 190px;
 }
 
@@ -283,4 +283,268 @@ a {
 	width: 267px;
 	text-decoration: underline;
 	text-decoration-color: #9eb2a7;
+}
+
+/* Вафелька */
+.aboutGllacy {
+	padding-right: 60px;
+	padding-left: 47px;
+	padding-top: 25px;
+
+	background-image: url("img/vaflya.png");
+	background-repeat: no-repeat;
+	background-position: center;
+
+	min-height: 307px;
+
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.aboutGllacy h2 {
+	color: black;
+
+	margin: 0;
+
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 500;
+}
+
+.aboutGllacy p {
+	color: black;
+
+	font-weight: 400;
+	font-family: 16px;
+	line-height: 22px;
+
+	margin: 0;
+}
+
+.aboutGllacy div {
+	max-width: 535px;
+
+	display: flex;
+	align-items: center;
+
+	margin-right: 10px;
+}
+
+.aboutGllacy img {
+	height: 49px;
+
+	align-self: flex-start; 
+
+	margin-right: 10px;
+
+}
+
+.gradus {
+	padding-bottom: 17px;
+}
+
+/* News container */
+
+.news-container {
+	padding-right: 27px;
+	padding-left: 27px;
+
+	display: flex;
+	justify-content: space-between;
+
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.news1, .news2 {
+	min-height: 220px;
+	width: 560px;
+	
+	border-radius: 20px;
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	color: black;
+
+	padding-left: 20px;
+	padding-top: 25px;
+}
+
+.news1 {
+	background-image: url("img/news1.png");
+}
+
+.news1 p {
+	margin: 0;
+	margin-bottom: 10px;
+
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+}
+
+.news1 h2 {
+	margin: 0;
+
+	font-size: 24px;
+	line-height: 30px;
+	text-decoration: underline;
+
+	max-width: 290px;
+}
+
+.news2 {
+	background-image: url("img/news2.png");
+
+	padding-right: 30px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.news2 p {
+	margin: 0;
+	padding-top: 10px;
+
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 500;
+
+}
+
+.news2 input {
+	height: 45px;
+	width: 370px;
+
+	padding-left: 10px;
+
+	font-family: inherit;
+}
+
+.news2 button {
+	height: 45px;
+	width: 125px;
+
+	border: none;
+	border-radius: 50px;
+
+	background-color: #f26843;
+
+	font-family: inherit;
+	color: white;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+}
+
+/* Map */
+
+.map {
+	min-height: 430px;
+
+	background-image: url("img/map.png");
+
+	padding-right: 27px;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.map form {
+	width: 303px;
+	min-height: 305px;
+
+	border-radius: 20px;
+
+	background-color: white;
+
+	padding-left: 25px; 
+	padding-top: 35px;
+	padding-right: 26px;
+}
+
+.map form p {
+	color: black;
+
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+
+	margin: 0;
+	margin-bottom: 3px;
+}
+
+.map form p span {
+	color: black;
+
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+
+	margin: 0;
+}
+
+.map .map2 {
+	margin-bottom: 20px;
+}
+
+.map button {
+	border-radius: 50px;
+	border: 0;
+	
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+	color: white;
+
+	background-color: #ef6541;
+
+	width: 245px;
+	height: 45px;
+
+	margin-top: 20px;
+}
+
+/* ПОдвал */
+
+.footer {
+	height: 105px;
+	padding-right: 27px;
+	padding-left: 27px;
+
+	display: flex;
+}
+
+.footer-left {
+	flex-basis: 267px;
+	display: flex;
+	align-items: center;
+	height: 100%
+}	
+
+.footer-left img {
+	margin-right: 10px;
+}	
+
+.footer-center {
+	flex-basis: 586px;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	justify-content: space-between;
+
+	font-size: 13px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.footer-right {
+	display: flex;
+	justify-content: center;
+	flex-basis: 267px;
 }
